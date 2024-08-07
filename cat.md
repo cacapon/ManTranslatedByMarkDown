@@ -70,7 +70,7 @@ See the manual page for your shell (e.g., sh(1)) for more information on redirec
 
 will print the contents of file1, print data it receives from the standard input until it receives an EOF (‘^D’) character, print the contents of file2, read and output contents of the standard input again, then finally output the contents of file3.
 
-> [!NOTE]
+> [!WARNING]
 > that if the standard input referred to a file, 
 > 
 > the second dash on the command-line would have no effect, 
